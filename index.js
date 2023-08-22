@@ -1,7 +1,8 @@
 const express = require ('express');
 const app = require ("./app")
+const PORT = 5000;
 
-app.listen (5000,()=> 
-console.log ('server started on port 5000')
-    
+
+app.listen (PORT,()=> 
+console.log (`server started on port ${PORT}`)
     ) 
