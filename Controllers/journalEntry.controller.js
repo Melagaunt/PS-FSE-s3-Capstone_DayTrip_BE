@@ -1,5 +1,3 @@
-
-
 const entries = [
   {
     _id: 1,
@@ -19,8 +17,8 @@ const entries = [
   },
 ];
 
-const getJournalEntries = ((req, res) => {
-	res.json(entries)
-});
+const getJournalEntries = (req, res) => {
+  res.json(entries);
+};
 
-module.exports = {getJournalEntries}
+module.exports = { getJournalEntries };
