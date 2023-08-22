@@ -1,7 +1,9 @@
 const express = require("express");
 const app = require("./app");
 const PORT = 5000;
+const connectToDb= require('./database-connection')
 
-const journalEntry = require("./Models/journalEntryModel.js");
+connectToDb()
+
 
 app.listen(PORT, () => console.log(`server started on port ${PORT}`));
