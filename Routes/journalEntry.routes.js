@@ -1,9 +1,10 @@
 const express = require("express");
 const router = express.Router();
 
-const {getJournalEntries} = require('../Controllers/journalEntry.controller.js')
+const {
+  listJournalEntries,
+} = require("../Controllers/journalEntry.controller.js");
 
-
-router.get("/", getJournalEntries)
+router.get("/", listJournalEntries);
 
 module.exports = router;
