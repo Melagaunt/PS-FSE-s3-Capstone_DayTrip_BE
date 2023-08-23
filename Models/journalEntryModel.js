@@ -1,12 +1,13 @@
 const mongoose = require("mongoose");
 const { Schema } = mongoose;
 
-const journalEntryModel = new Schema({
-  title: { type: String },
-  description: { type: String },
-  author: { type: String },
-  skill: { type: String },
-  date: { type: Date, default: Date.now() },
+const journalEntrySchema = new Schema({
+	title: { type: String },
+	description: { type: String },
+	author: { type: String },
+	skill: { type: String },
+	date: { type: Date, default: Date.now() },
 });
 
-module.exports = mongoose.model("journalEntry", journalEntryModel);
+module.exports = mongoose.model("journalEntries", journalEntrySchema);
+ 
