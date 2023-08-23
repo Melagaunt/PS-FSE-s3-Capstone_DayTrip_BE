@@ -1,0 +1,30 @@
+[{
+  "_id": {
+    "$oid": "64e61cfdef0d051ef44b71fc"
+  },
+  "title": "Some title",
+  "description": "blah balh",
+  "author": "Jones, Tiffany",
+  "skill": "Beginner",
+  "date": "1990-01-01"
+},
+{
+  "_id": {
+    "$oid": "64e61d59ef0d051ef44b71ff"
+  },
+  "title": "Some title",
+  "description": "blah balh",
+  "author": "Goodway, Jeremy",
+  "skill": "Beginner",
+  "date": "1990-01-01"
+},
+{
+  "_id": {
+    "$oid": "64e61d72ef0d051ef44b7201"
+  },
+  "title": "Some title",
+  "description": "blah balh",
+  "author": "Meyer, Zak",
+  "skill": "Beginner",
+  "date": "1990-01-01"
+}]
