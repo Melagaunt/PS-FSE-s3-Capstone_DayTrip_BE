@@ -2,37 +2,43 @@
   "_id": {
     "$oid": "64e61cfdef0d051ef44b71fc"
   },
-  "title": "Some title",
-  "description": "blah balh",
+  "title": "Colorado River Paddlefest",
+  "description": "Picture a vast expanse of water, islands so large they look like actual land masses, and river features that seem like still water with channels to fool even the most experienced river runner. A mellow Class I paddle can end up being a Class V challenge outside your skill level. I can only imagine what the first people to explore these rivers endured.",
   "author": "Jones, Tiffany",
   "skill": "Beginner",
-  "date": "1990-01-01"
+  "date": "2021-06-05",
+  "image": {"uri": "", "alt-text": ""}
 },
 {
   "_id": {
     "$oid": "64e61d59ef0d051ef44b71ff"
   },
-  "title": "Some title",
-  "description": "blah balh",
+  "title": "Sea Kayaking in the Pacific",
+  "description": "Our life vest is our lifeline out on the water, and the things we carry on and within our life vest reflect the conditions we are paddling in, our past experiences and familiarity with different rescue gear.",
   "author": "Goodway, Jeremy",
-  "skill": "Beginner",
-  "date": "1990-01-01"
+  "skill": "Intermediate",
+  "date": "2022-10-02",
+  "image": {"uri": "", "alt-text": ""}
 },
 {
   "_id": {
     "$oid": "64e61d72ef0d051ef44b7201"
   },
-  "title": "Some title",
-  "description": "blah balh",
+  "title": "Columbian Exploration",
+  "description": "Perhaps our enthusiasm and motivation had been over-boosted by the lack of adventure this year and made us forget what paddling at 2000 meters of elevation in Colombia meant. The Rio Santo Domingo takes it source at above 3000 metres of elevation and cascades down the jungle covered mountains for over 1000 metres before it finally reaches a decent gradient.",
   "author": "Meyer, Zak",
-  "skill": "Beginner",
-  "date": "1990-01-01"
+  "skill": "Expert",
+  "date": "2023-03-03",
+  "image": {"uri": "", "alt-text": ""}
 },
 {
 	
-  "title": "Some title",
+  "title": "Gilligan's Island",
   "description": "Just sit right back and you'll hear a tale, \nA tale of a fateful trip \nThat started from this tropic port \nAboard this tiny ship. \n\nThe mate was a mighty sailing man, \nThe skipper brave and sure. \nFive passengers set sail that day \nFor a three hour tour, a three hour tour. \n\nThe weather started getting rough, \nThe tiny ship was tossed, \nIf not for the courage of the fearless crew \nThe Minnow would be lost, the Minnow would be lost. \n\nThe ship set ground on the shore of this uncharted desert isle \nWith Gilligan \nThe Skipper too, \nThe millionaire and his wife, \nThe movie star \nThe Professor and Mary Ann,* \nHere on Gilligan's Isle.",
-  "author": "Last, First"
+  "author": "Schwartz, Sherwood",
+  "skill": "Pro",
+  "date": "1964-09-26",
+  "image": {"url":"https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/Gilligans_Island_title_card.jpg/220px-Gilligans_Island_title_card.jpg", "alt-text": ""}
 }
 
 ]
