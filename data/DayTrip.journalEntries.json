@@ -7,7 +7,10 @@
   "author": "Jones, Tiffany",
   "skill": "Beginner",
   "date": "2021-06-05",
-  "image": {"uri": "", "alt-text": ""}
+  "image": {
+    "uri": "https://images.unsplash.com/photo-1537156400682-724752eebbb8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJlZSUyMHBhZGRsZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60",
+    "alt-text": "stockKayakImage"
+  }
 },
 {
   "_id": {
@@ -18,7 +21,10 @@
   "author": "Goodway, Jeremy",
   "skill": "Intermediate",
   "date": "2022-10-02",
-  "image": {"uri": "", "alt-text": ""}
+  "image": {
+    "uri": "https://www.seakayakadventures.com/sites/seakayakadventures.com/files/styles/open_graph/public/images/Blackfish_waters_kayak_tour.jpg?itok=I2Kbwex1",
+    "alt-text": "stockKayakImage"
+  }
 },
 {
   "_id": {
@@ -29,16 +35,22 @@
   "author": "Meyer, Zak",
   "skill": "Expert",
   "date": "2023-03-03",
-  "image": {"uri": "", "alt-text": ""}
+  "image": {
+    "uri": "https://images.unsplash.com/photo-1620903669944-de50fbe78210?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+    "alt-text": "stockKayakImage"
+  }
 },
 {
-	
+  "_id": {
+    "$oid": "64ee37d21a80cbec94cdf8ce"
+  },
   "title": "Gilligan's Island",
   "description": "Just sit right back and you'll hear a tale, \nA tale of a fateful trip \nThat started from this tropic port \nAboard this tiny ship. \n\nThe mate was a mighty sailing man, \nThe skipper brave and sure. \nFive passengers set sail that day \nFor a three hour tour, a three hour tour. \n\nThe weather started getting rough, \nThe tiny ship was tossed, \nIf not for the courage of the fearless crew \nThe Minnow would be lost, the Minnow would be lost. \n\nThe ship set ground on the shore of this uncharted desert isle \nWith Gilligan \nThe Skipper too, \nThe millionaire and his wife, \nThe movie star \nThe Professor and Mary Ann,* \nHere on Gilligan's Isle.",
   "author": "Schwartz, Sherwood",
   "skill": "Pro",
   "date": "1964-09-26",
-  "image": {"url":"https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/Gilligans_Island_title_card.jpg/220px-Gilligans_Island_title_card.jpg", "alt-text": ""}
-}
-
-]
+  "image": {
+    "alt-text": "wikipediaImg-GilligansIsland",
+    "uri": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/Gilligans_Island_title_card.jpg/220px-Gilligans_Island_title_card.jpg"
+  }
+}]
