@@ -3,7 +3,7 @@ const journalEntryModel = require("../Models/journalEntryModel");
 async function listJournalEntries(req, res) {
   try {
     const journalEntries = await journalEntryModel.find({}).exec();
-    console.log(journalEntries);
+
     if (journalEntries.length > 0) {
       res.status(200).json(journalEntries);
     }
@@ -12,9 +12,10 @@ async function listJournalEntries(req, res) {
   }
 }
 
-module.exports = { listJournalEntries };
+async function postJournalEntries(req, res) {
+  const data = req.body;
+  const newEntry = await journalEntryModel.create(data);
+  res.status(200).json(newEntry);
+}
 
-// get: function(resolve, reject){
-// 	false.readFile(filName, (err, data) => {
-
-// 	})
+module.exports = { listJournalEntries, postJournalEntries };
